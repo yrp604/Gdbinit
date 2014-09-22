@@ -108,7 +108,7 @@ set history filename ~/.gdb_history
 set history save
 
 set output-radix 0x10
-set input-radix 0x10
+#set input-radix 0x10
 
 # These make gdb never pause in its output
 set height 0
@@ -139,7 +139,7 @@ set $WHITE = 7
 # CHANGME: If you want to modify the "theme" change the colors here
 #          or just create a ~/.gdbinit.local and set these variables there
 set $COLOR_REGNAME = $GREEN
-set $COLOR_REGVAL = $BLACK
+set $COLOR_REGVAL = $YELLOW
 set $COLOR_REGVAL_MODIFIED  = $RED
 set $COLOR_SEPARATOR = $BLUE
 set $COLOR_CPUFLAGS = $RED
